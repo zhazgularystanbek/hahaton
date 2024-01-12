@@ -1,0 +1,248 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+}
+
+button {
+  border: none;
+  cursor: pointer;
+  outline: none;
+}
+a {
+  text-decoration: none;
+}
+input {
+  outline: none;
+}
+
+.container {
+  width: 1240px;
+  margin: 0 auto;
+}
+#header {
+  background: #fff;
+  padding: 15px 0;
+}
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+body {
+  background: #95b9c9;
+}
+.header-navs {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+.header-navs a {
+  color: #000;
+  font-family: Montserrat;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.admin {
+  display: flex;
+  flex-direction: column;
+  gap: 44px;
+  align-items: center;
+  justify-content: center;
+}
+.create {
+  color: #fff;
+  font-family: Montserrat;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 1.08px;
+  width: 254.1px;
+  height: 80px;
+  flex-shrink: 0;
+  border-radius: 10px;
+  background: #ddaa27;
+}
+
+.admin input {
+  width: 549px;
+  height: 67px;
+  flex-shrink: 0;
+  border-radius: 10px;
+  background: #d9d9d9;
+  font-size: 24px;
+  padding-left: 1pc;
+  border: none;
+  color: #000;
+}
+
+.admin input::placeholder {
+  color: #000;
+  font-family: Montserrat;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  opacity: 0.3;
+  line-height: normal;
+  letter-spacing: 2.4px;
+}
+
+.container h1 {
+  text-align: center;
+  margin-top: 28px;
+  margin-bottom: 68px;
+  color: #33332d;
+  font-family: Montserrat;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 3.2px;
+}
+
+/*  */
+.menu-bloc,
+.order-bloc {
+  display: none;
+}
+
+.active {
+  color: #bd1d1d;
+  font-family: Montserrat;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.menu_btn {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 280px;
+}
+
+.menu_save {
+  background: yellow;
+  border-radius: 6px;
+  padding: 7px 10px;
+  min-width: 83px;
+  color: black;
+}
+
+.menu_edit {
+  background: green;
+  padding: 7px 10px;
+  min-width: 83px;
+  border-radius: 6px;
+  color: white;
+}
+
+.menu_delate,
+.order_delate {
+  background: red;
+  padding: 7px 10px;
+  min-width: 83px;
+  border-radius: 6px;
+  color: white;
+}
+
+.menu_div {
+  width: 328px;
+  height: 269px;
+  display: flex;
+  align-items: center;
+  margin-top: 2pc;
+  justify-content: center;
+  flex-direction: column;
+  flex-shrink: 0;
+  border-radius: 15px;
+  background: #d9d9d9;
+}
+.menu_div_info {
+  display: flex;
+
+  margin-top: 7px;
+  margin-bottom: 9px;
+
+  align-items: center;
+  justify-content: space-between;
+  width: 280px;
+}
+.menu_name {
+  color: #000;
+  font-family: Montserrat;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 0.72px;
+}
+.menu_img {
+  width: 301px;
+  border-radius: 15px;
+  height: 167px;
+  flex-shrink: 0;
+}
+
+.menu {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.order {
+  display: flex;
+  flex-direction: column;
+  gap: 2pc;
+  align-items: center;
+  justify-content: center;
+}
+.orders_div {
+  width: 886px;
+  height: 130px;
+  flex-shrink: 0;
+  border-radius: 10px;
+  padding: 0 20px;
+  background: #d9d9d9;
+  display: flex;
+
+  align-items: center;
+  justify-content: space-between;
+}
+.orders_img {
+  width: 186px;
+  height: 103px;
+  flex-shrink: 0;
+  border-radius: 10px;
+}
+.orders_btn {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.plus,
+.minus {
+  color: #000;
+  font-family: Montserrat;
+  font-size: 23px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 1.08px;
+  width: 30px;
+  height: 38px;
+  flex-shrink: 0;
+  border-radius: 10px;
+  background: #ddaa27;
+}
+.orders_btn1 {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 10px;
+}
